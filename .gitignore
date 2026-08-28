@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+
+# Chrome profile & test artifacts
+chrome-profile/
+artifacts/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
